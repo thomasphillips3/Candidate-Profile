@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1038.36">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Menlo; color: #dd0005}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Menlo; min-height: 13.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Menlo}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; font: 11.0px Menlo; color: #c800a7}
+    span.s1 {color: #c800a7}
+    span.s2 {color: #978026}
+    span.s3 {color: #dd0005}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">&lt;meta </span><span class="s2">name</span><span class="s1"> = </span>"viewport"<span class="s1"> </span><span class="s2">content</span><span class="s1"> = </span>"width = device-width"<span class="s1">&gt;</span></p>
+<p class="p2"><br></p>
+<p class="p3"><span class="s1">&lt;h4 </span><span class="s2">align</span><span class="s1">=</span><span class="s3">"left"</span><span class="s1">&gt;</span>Audio Queue Offline Render Test Sample<span class="s1">&lt;/h4&gt;</span></p>
+<p class="p2"><br></p>
+<p class="p3"><span class="s1">&lt;p&gt;</span>Demonstrates the use of the AudioQueueOfflineRender API. All the relevant code is</p>
+<p class="p3">in the file aqofflinerender.cpp. Touching the "Start" button simply calls</p>
+<p class="p3">DoAQOfflineRender() producing LPCM output buffers from an ALAC encoded source file.</p>
+<p class="p3">These buffers are then written to a .caf file which is played back after rendering using</p>
+<p class="p3">AVAudioPlayer to confirm success.<span class="s1">&lt;p&gt;</span></p>
+<p class="p2"><br></p>
+<p class="p1"><span class="s1">&lt;hr </span><span class="s2">align</span><span class="s1">=</span>"center"<span class="s1">&gt;</span></p>
+<p class="p2"><br></p>
+<p class="p3"><span class="s1">&lt;p&gt;</span>Audio Queue Services provides a straightforward, low overhead way to record</p>
+<p class="p3">and play audio in iPhone OS and Mac OS X. It is the recommended technology</p>
+<p class="p3">to use for adding basic recording or playback features to your iPhone OS or</p>
+<p class="p3">Mac OS X application.<span class="s1">&lt;/p&gt;</span></p>
+<p class="p2"><br></p>
+<p class="p3"><span class="s1">&lt;p&gt;</span>Offline rendering with an audio queue output allows applications to render</p>
+<p class="p3">audio to a buffer instead of directly to an output device. This is</p>
+<p class="p3">especially useful with the iPhone OS, since the Audio Converter and Extended</p>
+<p class="p3">Audio File APIs do not currently (up to iPhone OS 2.2.x) support</p>
+<p class="p3">decompressing AAC, ALAC or MP3 encoded audio to LPCM if further processing</p>
+<p class="p3">is desired.<span class="s1">&lt;/p&gt;</span></p>
+<p class="p2"><br></p>
+<p class="p3"><span class="s1">&lt;p&gt;</span>If you need to generate buffers of LPCM data from AAC, ALAC or MP3 encoded</p>
+<p class="p3">audio, using audio queue offline rendering is the recommended approach.<span class="s1">&lt;/p&gt;</span></p>
+<p class="p2"><br></p>
+<p class="p3"><span class="s1">&lt;p&gt;</span>Audio Queue Services lets you record and play audio in any of the following</p>
+<p class="p3">formats:<span class="s1">&lt;/p&gt;</span></p>
+<p class="p4">&lt;ul&gt;</p>
+<p class="p3"><span class="s1">&lt;li&gt;</span> Linear PCM.<span class="s1">&lt;/li&gt;</span></p>
+<p class="p3"><span class="s1">&lt;li&gt;</span> Any compressed format supported natively on the Apple platform you are</p>
+<p class="p3">developing for.<span class="s1">&lt;/li&gt;</span></p>
+<p class="p3"><span class="s1">&lt;li&gt;</span> Any other format for which a user has an installed codec.<span class="s1">&lt;/li&gt;</span></p>
+<p class="p4">&lt;/ul&gt;</p>
+<p class="p2"><br></p>
+<p class="p3"><span class="s1">&lt;p&gt;</span>Audio Queue Services is high level. It lets your application use hardware</p>
+<p class="p3">recording and playback devices (such as microphones and loudspeakers)</p>
+<p class="p3">without knowledge of the hardware interface. It also lets you use</p>
+<p class="p3">sophisticated codecs without knowledge of how the codecs work.</p>
+<p class="p3">At the same time, Audio Queue Services supports some advanced features. It</p>
+<p class="p3">provides fine-grained timing control to support scheduled playback and</p>
+<p class="p3">synchronization, for example synchronizing playback of multiple audio</p>
+<p class="p3">queues.<span class="s1">&lt;/p&gt;</span></p>
+<p class="p4">&lt;br&gt;</p>
+<p class="p4">&lt;br&gt;</p>
+</body>
+</html>
